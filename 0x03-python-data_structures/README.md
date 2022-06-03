@@ -111,5 +111,6 @@ An introductory project on:
 ### Advanced
 **[100-print_python_list_info.c](100-print_python_list_info.c)** - Create a C function that prints some basic info about Python lists.
 - Prototype: `void print_python_list_info(PyObject *p);`
-- Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`
+- Your shared library will be compiled with this command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.8
+100-print_python_list_info.c`
 
